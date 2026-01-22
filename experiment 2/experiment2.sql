@@ -29,6 +29,7 @@ FROM Students
 GROUP BY CITY
 HAVING COUNT(Id)<3
 
+-- FIND AVERAGE MARKS OF EACH CITY
 SELECT city,AVG(MARKS)::NUMERIC(10,2) as average_marks
 FROM Students
 Group BY city;
