@@ -57,7 +57,7 @@ INSERT INTO employee (emp_id, emp_name, department, salary, joining_date) VALUES
 (108, 'Ananya Joshi',  'Sales',     15000, '2022-12-01'),
 (109, 'Vikram Rao',    'IT',        25000, '2022-04-18');
 ```
-![QUERY](output/0.png)
+
 
 ## Display the Table
 ```sql
